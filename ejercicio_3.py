@@ -1,4 +1,4 @@
-# Tipos de variables [Python]
+# Condicionales [Python]
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
@@ -7,26 +7,31 @@
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejemplos variables de texto
+# Ejercicios de práctica numérica
 
-# Ingrese primero su nombre y luego su apellido
-# Capture ambos datos e imprima su nombre completo
-print('Ingrese por consola su nombre/s:')
-nombre = str(input())
+# Condicionales anidados
+numero_1 = 7
+numero_2 = -2
 
-print('Ingrese por consola su apellido/s:')
-apellido = str(input())
+# Verifique si el numero_1 es mayor a 5
+#   --> En caso afirmativo, verifique si el numero_2
+#       es positivo
+#       --> En caso afirmativo imprima en pantalla "Resp=1"
+#       --> En caso negativo imprima en pantalla   "Resp=2"
+#  --> En caso negativo (numero_1 no es mayor a 5)
+#      verifique si el numero_2 es mayor a 5
+#       --> En caso afirmativo imprima en pantalla "Resp=3"
+#       --> En caso negativo imprima en pantalla "Resp=4"
 
-# Imprima su nombre completo
+# Verifique la calificación de un estudiante según su
+# puntaje en un examen
+puntaje = 70
 
-# Almacenar su nombre completo en una variable
-# nombre_completo = .....
+# Si el puntaje es mayor igual a 90 --> imprimir A
+# Si el puntaje es mayor igual a 80 --> imprimir B
+# Si el puntaje es mayor igual a 70 --> imprimir C
+# Si el puntaje es mayor igual a 60 --> imprimir D
+# Si el puntaje es menor a  60      --> imprimir F
 
-# Imprimir la cantidad de letras que posee su nombre completo
-# cantidad_letras = len(....)
-
-print("mi nombre completo es", nombre, apellido)
-nombre_completo = 'hernan' 'guiñazu' 
-hernan_guiñazu_len = len(nombre_completo)
-print("mi nombre tiene, len('nombre'_'completo', 'letras'")
-
+# Debe imprimir en pantalla la calificacion
+# Utilizar "if" anidados

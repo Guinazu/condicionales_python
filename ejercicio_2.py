@@ -1,4 +1,4 @@
-# Tipos de variables [Python]
+# Condicionales [Python]
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
@@ -7,43 +7,30 @@
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejercicios de práctica numérica y consola
+# Ejemplos variables de texto
 
-# Ahora los valores a operar deben ser ingresados por
-# consola con la función "input" como se ve a continuación
-from decimal import DivisionByZero
+# Comparadores
+# Ingrese dos palabras cualesquiera y realice las sigueintes
+# comparaciones entre ellas
+texto_1 = str(input('Ingrese la primera palabra:\n'))
 
+texto_2 = str(input('Ingrese la segunda palabra:\n'))
 
-print('Ingrese por consola el primer número entero a operar:')
-numero_1 = int(input())
+# Compare cual de las dos palabras es mayor (alfabéticamente)
+# Imprima en pantalla según corresponda
 
-print('Ingrese por consola el segundo número entero a operar:')
-numero_2 = int(input())
+# Compare cual de las dos palabras tiene mayor
+# cantidad de letras
+# Imprima en pantalla según corresponda
 
-# Alumno: Imprima en pantalla los dos números enteros solicitados
-# print(....)
+# Verifique si la primera letra de la primera palabra
+# es mayor a la primera letra de la segunda palabra
+# Imprima en pantalla según corresponda
 
-# Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
-# numero_1, numero_2
-# Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
-# El resultado de sumar 4 y 2 es 6
-# NOTA: No coloque usted los nùmeros y resultados, use las variables
+copia_texto_1 = texto_1  # Copia de la variable texto_1
 
-# Suma
+# Verifique que copia_texto_1 es igual a texto_1
+# Imprima en pantalla según corresponda
 
-# Resta
-
-# División
-
-# Multiplicación
-numero_1 = 9
-numero_2 = 27
-
-print("el resultado de la suma, numero_1 + numero_2, suma")
-print("el resultado de restar, numero_1 - numero_2, resta")
-print("el resultado de dividir, numero_1 / numero_2, dividir")
-print("resultado de multiplicar. numero_1 * numero_2, multiplicar")
-
-
-
-
+# Verifique que copia_texto_1 es distinta a texto_2
+# Imprima en pantalla según corresponda

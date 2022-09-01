@@ -1,4 +1,4 @@
-# Tipos de variables [Python]
+# Condicionales [Python]
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
@@ -9,25 +9,22 @@
 
 # Ejercicios de práctica numérica
 
-numero_1 = 5
-numero_2 = 7
+# Comparadores
+# Ingrese dos números cualesquiera y realice las sigueintes
+# comparaciones entre ellos
+numero_1 = int(input('Ingrese el primer número:\n'))
 
-# Realizar la suma de las dos variables
-# numero_1 y numero_2
-# Almacenar el valor de la suma en una variable
-# ej:
-# operacion = .....
+numero_2 = int(input('Ingrese el segundo número:\n'))
 
-# Imprimir en pantalla el resultado de la suma
-# print(....)
+# Compare cual de los dos números es mayor
+# Imprima en pantalla según corresponda
 
-# Repita el procedimiento para realizar la resta
+# Verifique si el numero_1 positivo, negativo o cero
+# Imprima el resultado en cada caso
 
-numero_1=4
-numero_2=10
-suma = numero_1 + numero_2
-print ("el resultado de la suma es", suma)
+# Verifique si el numero_1 es mayor a 0 y menor a 100
+# Imprima en pantalla si se cumple o no la condición
 
-resta = numero_1 - numero_2
-print ("el resultado de restar es",numero_1, "y",numero_2, " es", resta)
-
+# Verifique si el numero_1 es menor a 10 o el numero_2
+# es mayor a -2
+# Imprima en pantalla si se cumple o no la condición
